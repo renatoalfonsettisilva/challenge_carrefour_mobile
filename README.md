@@ -42,7 +42,7 @@ Pré-requisitos:
 Instalação:
 Clone o repositório e instale as dependências:
 
-```bash
+bash
 git clone https://github.com/seu-usuario/mobile-automation.git
 cd mobile-automation
 npm install
