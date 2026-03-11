@@ -1,0 +1,12 @@
+stages:
+  - test
+
+test_app:
+  stage: test
+  image: node:latest
+  script:
+    - npm install
+    - npm run test
+  only:
+    - merge_requests
+    - master
